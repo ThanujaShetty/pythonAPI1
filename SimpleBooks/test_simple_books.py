@@ -90,9 +90,9 @@ class SimplebookApi:
 
 
 api = SimplebookApi()
-api.access_token1()
-# api.create_book()
-# api.get_an_order_api()
-# api.update_an_order()
-# api.delete_book()
+api.access_token()
+api.create_book()
+api.get_an_order_api()
+api.update_an_order()
+api.delete_book()
 
