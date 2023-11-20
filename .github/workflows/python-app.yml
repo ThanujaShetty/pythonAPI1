@@ -29,4 +29,5 @@ jobs:
 
     - name: Api_test
       run: |
+        cd SimpleBooks
         python test_simple_books.py
