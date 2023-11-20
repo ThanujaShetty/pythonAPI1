@@ -27,6 +27,7 @@ class SimplebookApi:
 
     # def access_token1(self):
     #     #converting response into json
+    #     global token
     #     num = random.randint(1, 1000)
     #     body = {"clientName":"Thanu","clientEmail":%f"than"{num}"@sample.com"}
     #     baseURL = "https://simple-books-api.glitch.me"
