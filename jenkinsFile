@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git') {
+            steps {
+                git 'https://github.com/ThanujaShetty/pythonAPI1.git'
+            }
+        }
+         stage('Tests') {
+            steps {
+               bat '''cd SimpleBooks
+                pip install -r requirement.txt
+                python test_simple_books.py'''
+            }
+        }
+    }
+}
