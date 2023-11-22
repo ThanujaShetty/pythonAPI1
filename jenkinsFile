@@ -9,9 +9,9 @@ pipeline {
         }
          stage('Tests') {
             steps {
-               bat '''cd SimpleBooks
-                pip install -r requirement.txt
-                python test_simple_books.py'''
+               bat '''pip install -r requirement.txt
+               cd SimpleBooks
+               python test_simple_books.py'''
             }
         }
     }
